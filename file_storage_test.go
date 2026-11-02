@@ -224,7 +224,9 @@ func TestTrim(t *testing.T) {
 		t.Fatal(err)
 	}
 
-	w, err := Open(dir, DefaultOptions())
+	opt := DefaultOptions()
+	opt.FileSizeThresholdBytes = 0
+	w, err := Open(dir, opt)
 	if err != nil {
 		t.Fatal(err)
 	}
