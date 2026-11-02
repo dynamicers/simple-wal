@@ -1,0 +1,128 @@
+WAL dir: /home/tom/wal/bench/simplewal-bench-3369255635
+workers: 1
+payload: 100 bytes
+submit duration: 15s
+--------------------------
+actual elapsed:  15.002713062s
+total log count: 4058
+QPS:             270.48 logs/s
+BW:              0.026 MiB/s
+latency avg:     3695.323 us
+latency min:     2.494877ms
+latency p50:     3.645963ms
+latency p95:     3.898188ms
+latency p99:     6.558327ms
+latency max:     13.163997ms
+
+WAL dir: /home/tom/wal/bench/simplewal-bench-710462082
+workers: 4
+payload: 100 bytes
+submit duration: 15s
+--------------------------
+actual elapsed:  15.005974612s
+total log count: 8212
+QPS:             547.25 logs/s
+BW:              0.052 MiB/s
+latency avg:     7307.760 us
+latency min:     3.389188ms
+latency p50:     7.224285ms
+latency p95:     7.742501ms
+latency p99:     10.702624ms
+latency max:     16.365896ms
+
+WAL dir: /home/tom/wal/bench/simplewal-bench-767015825
+workers: 8
+payload: 100 bytes
+submit duration: 15s
+--------------------------
+actual elapsed:  15.004531469s
+total log count: 16363
+QPS:             1090.54 logs/s
+BW:              0.104 MiB/s
+latency avg:     7333.296 us
+latency min:     3.505751ms
+latency p50:     7.250655ms
+latency p95:     7.755194ms
+latency p99:     10.938776ms
+latency max:     16.030577ms
+
+WAL dir: /home/tom/wal/bench/simplewal-bench-3065114138
+workers: 16
+payload: 100 bytes
+submit duration: 15s
+--------------------------
+actual elapsed:  15.004342744s
+total log count: 32471
+QPS:             2164.11 logs/s
+BW:              0.206 MiB/s
+latency avg:     7392.592 us
+latency min:     3.371451ms
+latency p50:     7.310176ms
+latency p95:     7.842434ms
+latency p99:     10.791315ms
+latency max:     15.74066ms
+
+WAL dir: /home/tom/wal/bench/simplewal-bench-1490002209
+workers: 256
+payload: 100 bytes
+submit duration: 15s
+--------------------------
+actual elapsed:  15.00661411s
+total log count: 495143
+QPS:             32994.98 logs/s
+BW:              3.147 MiB/s
+latency avg:     7756.288 us
+latency min:     3.322593ms
+latency p50:     7.621349ms
+latency p95:     8.356244ms
+latency p99:     13.576722ms
+latency max:     30.579136ms
+
+WAL dir: /home/tom/wal/bench/simplewal-bench-3338858380
+workers: 2048
+payload: 100 bytes
+submit duration: 15s
+--------------------------
+actual elapsed:  15.007835441s
+total log count: 3608582
+QPS:             240446.53 logs/s
+BW:              22.931 MiB/s
+latency avg:     8514.864 us
+latency min:     3.168788ms
+latency p50:     8.733527ms
+latency p95:     11.938395ms
+latency p99:     14.930283ms
+latency max:     127.698144ms
+
+WAL dir: /home/tom/wal/bench/simplewal-bench-2027483635
+workers: 4096
+payload: 100 bytes
+submit duration: 15s
+--------------------------
+actual elapsed:  15.015404788s
+total log count: 5399706
+QPS:             359611.08 logs/s
+BW:              34.295 MiB/s
+latency avg:     11384.555 us
+latency min:     3.144925ms
+latency p50:     11.09716ms
+latency p95:     19.343269ms
+latency p99:     24.248107ms
+latency max:     103.688796ms
+
+WAL dir: /home/tom/wal/bench/simplewal-bench-3455708565
+workers: 8192
+payload: 100 bytes
+submit duration: 15s
+--------------------------
+actual elapsed:  15.010242049s
+total log count: 8287038
+QPS:             552092.23 logs/s
+BW:              52.652 MiB/s
+latency avg:     14829.878 us
+latency min:     4.14243ms
+latency p50:     14.524653ms
+latency p95:     24.796712ms
+latency p99:     28.681727ms
+latency max:     82.592622ms
+
